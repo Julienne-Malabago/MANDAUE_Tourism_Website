@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mandaue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="landing.css">
+</head>
+
+<body>
+    <div class="blue-bar" id="blueBar">
+        <table>
+            <tr>
+                <td class="logo" width="20%">
+                    <img class="img-logo" src="Welcome to Mandaue (5).png">
+                    <span>
+                        <div style="letter-spacing: normal;">Mandaue City</div>
+                        <div style="letter-spacing: 12px;">Tourism</div>
+                    </span>
+                </td>
+                <td class="nav-links" width="60%">
+                    <a href="index.htm">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="attractions.html">Attractions</a>
+                    <a href="events&festivals.html">Events & Festivals</a>
+                    <a href="food_culture.html">Food & Culture</a>
+                    <a href="contacts.html">Contact</a>
+                </td>
+                <td class="right-icons" width="20%">
+                    <img class="img-side-icons" src="Move Mandaue.png" alt="Move Mandaue">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="header-container">
+        <div class="header">
+            <h1>Welcome to Mandaue</h1>
+            <p>Furniture Capital of the Philippines, Industrial City of Southern Philippines, Little Rich City</p>
+            <div class="nav-buttons">
+                <a href="#about_us">About</a>
+                <a href="#attractions">Attractions</a>
+                <a href="#events">Events & Festivals</a>
+                <a href="#food">Food & Culture</a>
+            </div>
+        </div>
+
+        <div class="precontent-container">
+            <div class="precontent1">
+                <div class="pre-content" id="about_us">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="mandaueOverlooking3.jpg">
+                            </td>
+                            <td>
+                                <h2>About Us</h2>
+                                <p>
+                                    Mandaue City, founded in 1521, is a historic and vibrant destination known for its
+                                    rich cultural heritage,
+                                    scenic waterfronts, and dynamic festivals like the Panagtagbo Festival.
+                                    <br><br>
+                                    From its origins as a bustling 'Cove of Cebu' to its modern status as an industrial
+                                    hub, Mandaue offers visitors a unique blend of history,
+                                    craftsmanship, and Cebuano hospitality.
+                                </p>
+                                <br>
+                                <button class="precontent-button" onclick="window.location.href='about.html';">Learn More >></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="content1-attractions-container">
+            <div class="content1-attractions">
+                <section id="attractions" class="attractions-design">
+                    <table>
+                        <tr>
+                            <td width="50%">
+                                <h2>ATTRACTIONS</h2>
+                                <p>
+                                    Wander Mandaue City's beautifully blend of history and modernity, with historical
+                                    landmarks like the Mandaue City Hall
+                                    and National Shrine of Saint Joseph showcasing its cultural heritage.<br><br>
+
+                                    The city also features vibrant shopping malls, dining spots, entertainment venues,
+                                    and luxurious hotels,
+                                    offering a dynamic experience for both locals and visitors.
+                                </p>
+                                <button class="attractions-button"
+                                    onclick="window.location.href='attractions.html';">See More>></button>
+                            </td>
+                            <td width="50%">
+                                <div class="slideshow-container">
+                                    <div class="main-image">
+                                        <img id="mainImage" src="mandaue city plaza.jpg" alt="Main Slideshow Image">
+                                        <div class="caption" id="imageCaption">Mandaue City Plaz</div>
+                                    </div>
+
+                                    <div class="thumbnail-container-wrapper">
+                                        <button class="arrow-btn arrow-btn-left">
+                                            << <button class="arrow-btn arrow-btn-right">>>
+                                        </button>
+                                        <div class="thumbnail-container">
+
+                                            <img src="mandaue city plaza.jpg" alt="Mandaue City Plaza" class="thumbnail"
+                                                onclick="changeImage('mandaue city plaza.jpg', 'Mandaue City Plaza')">
+
+                                            <img src="parkmall.jpg" alt="Mandaue Park Mall" class="thumbnail"
+                                                onclick="changeImage('parkmall.jpg', 'Mandaue Park Mall')">
+
+                                            <img src="129099-Cebu.avif" alt="National Shrine of Saint Joseph"
+                                                class="thumbnail"
+                                                onclick="changeImage('129099-Cebu.avif', 'National Shrine of Saint Joseph')">
+
+                                            <img src="THE_Marcelo_Fernan_Bridge (2).jpg" alt="Marcelo Fernan Bridge"
+                                                class="thumbnail"
+                                                onclick="changeImage('THE_Marcelo_Fernan_Bridge (2).jpg', 'Marcelo Fernan Bridge')">
+
+
+                                            <img src="presidencia.jpg" alt="Mandaue Presidencia" class="thumbnail"
+                                                onclick="changeImage('presidencia.jpg', 'Mandaue Presidencia')">
+
+                                            <img src="city time.jpg" alt="City Time Square" class="thumbnail"
+                                                onclick="changeImage('city time.jpg', 'City Time Square')">
+
+                                            <img src="centre mall.jpg" alt="J Centre Mall" class="thumbnail"
+                                                onclick="changeImage('centre mall.jpg', 'J Centre Mall')">
+
+                                            <img src="cansage bay.jpg" alt="Cansaga Bay Bridge" class="thumbnail"
+                                                onclick="changeImage('cansage bay.jpg', 'Cansaga Bay Bridge')">
+
+                                            <img src="oakridge.jpg" alt="Oakridge Business Park" class="thumbnail"
+                                                onclick="changeImage('oakridge.jpg', 'Oakridge Business Park')">
+
+                                            <img src="NorthDrive.jpg" alt="North-Drive Mall Centre" class="thumbnail"
+                                                onclick="changeImage('NorthDrive.jpg', 'North-Drive Mall Centre')">
+
+                                            <img src="129524-Mandaue-City-Hall.avif" alt="Mandaue City Public Library"
+                                                class="thumbnail"
+                                                onclick="changeImage('129524-Mandaue-City-Hall.avif', 'Mandaue City Public Library')">
+
+                                            <img src="market.jpg" alt="Mandaue City Public Market" class="thumbnail"
+                                                onclick="changeImage('market.jpg', 'Mandaue City Public Market')">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content2" id="events">
+        <h2>EVENTS & FESTIVALS</h2>
+        <section>
+            <div class="gallery-container">
+                <button class="arrow left" onclick="scrollGallery('left')">←</button>
+                <div class="gallery">
+                    <figure>
+                        <img src="panagtagbo.jpeg" alt="Panagtagbo">
+                        <figcaption class="caption-events">Panagtagbo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="paskofive.jpg" alt="Gallery Image">
+                        <figcaption class="caption-events">Pasko Sa Mandaue</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="pasko.jpg" alt="Gallery Image">
+                        <figcaption class="caption-events">Pasko Sa Mandaue</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Mandaue Fiesta.webp" alt="Gallery Image">
+                        <figcaption class="caption-events">Fiesta Sa Mandaue</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="kabayo festival.png" alt="Gallery Image">
+                        <figcaption class="caption-events">Kabayo Festival</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="kabayofestival(1).jpg" alt="Gallery Image">
+                        <figcaption class="caption-events">Kabayo Festival</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="jobfair.jpg" alt="Gallery Image">
+                        <figcaption class="caption-events">Local and Overseas Job Fair</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="charter day celebration.jpg" alt="Gallery Image">
+                        <figcaption class="caption-events">Charter Day Celebration</figcaption>
+
+                    </figure>
+                    <figure>
+                        <img src="foodfair.jpg" alt="Gallery Image">
+                        <figcaption class="caption-events">Food Fair</figcaption>
+                    </figure>
+                </div>
+                <button class="arrow right" onclick="scrollGallery('right')">→</button>
+            </div>
+        </section>
+
+        <p>
+            Experience the vibrant energy of Mandaue through its iconic festivals like Fiesta sa Mandaue,
+            where colorful parades and lively street dancing fill the streets, or the Mantawi Festival, a
+            grand celebration of the city's rich heritage and unity. Don't miss the Panagtagbo, a gathering
+            of culture, food, and music that brings the community together in true Mandaue style!
+        </p>
+        <button class="content2-button"><a href="events&festivals.html">See More>></a></button>
+
+        <section class="food-design" id="food">
+            <div id="container">
+                <div class="photobanner">
+                    <img src="fiesta.jpg" alt="Image 1">
+                    <img src="panagtagbo.jpeg" alt="Image 2">
+                    <img src="pasko.jpg" alt="Image 3">
+                    <img src="pistawan.jpeg" alt="Image 4">
+                    <img src="pistafor.jpg" alt="Image 5">
+                    <img src="pistasix.jpg" alt="Image 1">
+                    <img src="pistatwo.jpg" alt="Image 2">
+                    <img src="pistafayv.jpg" alt="Image 3">
+                    <img src="pistatres.jpg" alt="Image 4">
+                    <img src="paskofor.jpg" alt="Image 5">
+                    <img src="paskosix.jpg" alt="Image 1">
+                    <img src="paskotwo.jpg" alt="Image 2">
+                    <img src="paskowan.jpg" alt="Image 3">
+                    <img src="paskofive.jpg" alt="Image 4">
+                    <img src="paskothree.jpg" alt="Image 5">
+                    <img src="panagtagbodos.jpg" alt="Image 1">
+                    <img src="panagtagbofor.jpg" alt="Image 2">
+                    <img src="panagtagbosix.jpg" alt="Image 3">
+                    <img src="panagtagbouno.jpeg" alt="Image 4">
+                    <img src="panagtagbofive.jpg" alt="Image 5">
+                    <img src="panagtagbotres.jpg" alt="Image 1">
+                    <img src="fiesta.jpg" alt="Image 1">
+                    <img src="panagtagbo.jpeg" alt="Image 2">
+                    <img src="pasko.jpg" alt="Image 3">
+                    <img src="pistawan.jpeg" alt="Image 4">
+                    <img src="pistafor.jpg" alt="Image 5">
+                    <img src="pistasix.jpg" alt="Image 1">
+                </div>
+            </div>
+
+            <div class="food-inside">
+                <table>
+                    <tr>
+                        <td>
+                            <h2>FOOD & CULTURE</h2>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                Explore Mandaue City, the vibrant heart of Cebu, where rich heritage meets culinary delights like bibingka, masareal, and the iconic lechon.
+                                <br>From historical landmarks to the lively Panagtagbo Festival, the city offers a perfect blend of culture, flavors, and warm hospitality.
+                            </p>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="food-inside-button" onclick="window.location.href='food_culture.html';">See More>></button>
+                        </td>                        
+                    </tr>
+                </table>
+            </div>       
+
+            <div id="container-bottom">
+                <div class="photobanner-bottom">
+                    <img src="fruitsnveg.jpg" alt="Image 1">
+                    <img src="lechon.jpg" alt="Image 2">
+                    <img src="masareal.jpg" alt="Image 3">
+                    <img src="matias_bbq.jpg" alt="Image 4">
+                    <img src="halohalo.jpg" alt="Image 5">
+                    <img src="bam-i.jpg" alt="Image 1">
+                    <img src="bibingka.jpg" alt="Image 2">
+                    <img src="larang.jpg" alt="Image 2">
+                    <img src="fruitsnveg.jpg" alt="Image 1">
+                    <img src="lechon.jpg" alt="Image 2">
+                    <img src="masareal.jpg" alt="Image 3">
+                    <img src="matias_bbq.jpg" alt="Image 4">
+                    <img src="halohalo.jpg" alt="Image 5">
+                    <img src="bam-i.jpg" alt="Image 1">
+                    <img src="bibingka.jpg" alt="Image 2">
+                    <img src="larang.jpg" alt="Image 2">
+                    <img src="fruitsnveg.jpg" alt="Image 1">
+                    <img src="lechon.jpg" alt="Image 2">
+                    <img src="masareal.jpg" alt="Image 3">
+                    <img src="matias_bbq.jpg" alt="Image 4">
+                    <img src="halohalo.jpg" alt="Image 5">
+                    <img src="bam-i.jpg" alt="Image 1">
+                    <img src="bibingka.jpg" alt="Image 2">
+                    <img src="larang.jpg" alt="Image 2">
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-icons-description">
+            <table>
+                <tr width="100%">
+                    <td>
+                        <div width="30%">
+                            <img src="Welcome to Mandaue (5).png" alt="Mandaue Logo">
+                            <h4>Discover Mandaue City</h4>
+                            <p>"Experience the charm of culture, commerce, and community."</p>
+
+                        </div>
+                    </td>
+                    <td width="20%">
+                        <div>
+                            <h4>Quick Links</h4>
+                            <ul class="icon-bullets">
+                                <li><img src="About Icon.png" alt="Icon"> <a href="about.html">About Us</a></li>
+                                <li><img src="Attractions Icon.png" alt="Icon"> <a href="attractions.html">Top
+                                        Attractions</a></li>
+                                <li><img src="Events Icon.png" alt="Icon"> <a href="events&festivals.html">Events
+                                        Calendar</a></li>
+                                <li><img src="Food Icon.png" alt="Icon"> <a href="food_culture.html">Local Cuisine</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td width="25%">
+                        <div>
+                            <h4>Contact Us</h4>
+                            <h3>Mandaue City Tourism Office<h3>
+                                    </p>
+                                    <p><sub><i>(Mandaue City Garden) Zamora St, Barangay Centro, Mandaue City,6014,
+                                                Philippines.</i></sub></p>
+                                    <p><br>📞 (032) 343 9092<br>
+                                        <a href="mailto:cmo@mandauecity.gov.ph">✉️ cmo@mandauecity.gov.ph</a>
+                                    </p>
+                                    <p>🕒 Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        </div>
+                    </td>
+                    <td width="23%">
+                        <div>
+                            <h4>Stay Connected</h4>
+                            <p><b>Follow us on:<br></b></p>
+                            <div class="social-links">
+                                <ul>
+                                    <li>
+                                        <p>Facebook:</p>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/@MandaueCityPublicInformationOffice/">Mandaue
+                                                    City Public Information Office</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.facebook.com/mandaueflashreport//">Mandaue New
+                                                    Update</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.facebook.com/ChooseMandaue/">Mandaue Investment
+                                                    Promotions Tourism Action Center</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a
+                                            href="https://www.instagram.com/explore/locations/53060580/mandaue-city-tourism-office/">Instagram</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+        </div>
+        </td>
+        </tr>
+        </table>
+    </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img class="footer-bottom-img-left" src="Move Mandaue.png" alt="Footer Image">
+        <p class="mandaue-quote">© 2024 Mandaue City Tourism. All Rights Reserved.</p>
+    </div>
+
+
+    <script>
+        let lastScrollY = window.scrollY;
+        const blueBar = document.getElementById('blueBar');
+
+        function handleScroll() {
+            const screenWidth = window.innerWidth;
+
+            if (screenWidth > 800) {
+                if (window.scrollY > lastScrollY) {
+                    blueBar.style.transform = 'translateY(-100%)';
+                } else {
+                    blueBar.style.transform = 'translateY(0)';
+                }
+                lastScrollY = window.scrollY; 
+            } else {
+                blueBar.style.transform = 'translateY(0)';
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        window.addEventListener('resize', handleScroll);
+    </script>
+    <script>
+        function changeImage(imageSrc) {
+            const mainImage = document.getElementById("mainImage");
+            mainImage.src = imageSrc;
+
+            const thumbnails = document.querySelectorAll(".thumbnail");
+            thumbnails.forEach((thumbnail) => {
+                if (thumbnail.src.includes(imageSrc)) {
+                    thumbnail.classList.add("active");
+                } else {
+                    thumbnail.classList.remove("active");
+                }
+            });
+        }
+    </script>
+    <script>
+        function changeImage(imageSrc, captionText) {
+            document.getElementById('mainImage').src = imageSrc;
+
+            document.getElementById('imageCaption').textContent = captionText;
+        }
+    </script>
+    <script>
+        const leftArrow = document.querySelector('.arrow-btn-left');
+        const rightArrow = document.querySelector('.arrow-btn-right');
+        const thumbnailContainer = document.querySelector('.thumbnail-container');
+
+        leftArrow.addEventListener('click', () => {
+            thumbnailContainer.scrollBy({
+                left: -100,
+                behavior: 'smooth'
+            });
+        });
+
+        rightArrow.addEventListener('click', () => {
+            thumbnailContainer.scrollBy({
+                left: 100,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    <script>
+        const gallery = document.querySelector('.gallery');
+        const figures = document.querySelectorAll('.gallery figure');
+        const figureWidth = 100; 
+        const gap = 10;
+        let currentIndex = 2; 
+
+        function isMobileView() {
+            return window.innerWidth <= 768; 
+        }
+
+        function updateDesktopFigureSizes() {
+            figures.forEach((figure, index) => {
+                if (index === currentIndex) {
+                    figure.style.width = '400px';
+                    figure.style.height = '400px';
+                } else if (index === currentIndex - 1 || index === currentIndex + 1) {
+                    figure.style.width = '150px';
+                    figure.style.height = '400px';
+                } else {
+                    figure.style.width = '100px';
+                    figure.style.height = '400px';
+                }
+            });
+        }
+
+        function updateMobileFigureSizes() {
+            figures.forEach((figure) => {
+                figure.style.width = '30vw'; 
+                figure.style.height = '200px'; 
+            });
+
+            gallery.style.width = '37%'; 
+            gallery.style.overflowX = 'auto'; 
+        }
+
+        function updateFigureSizes() {
+            if (isMobileView()) {
+                updateMobileFigureSizes();
+            } else {
+                gallery.style.width = ''; 
+                gallery.style.overflowX = ''; 
+                updateDesktopFigureSizes();
+            }
+        }
+
+        function scrollGalleryDesktop(direction) {
+            const maxIndex = figures.length - 1; 
+            const scrollStep = figureWidth + gap; 
+
+            if (direction === 'left' && currentIndex > 0) {
+                currentIndex--;
+            } else if (direction === 'right' && currentIndex < maxIndex) {
+                currentIndex++;
+            }
+
+            const newScrollPosition = currentIndex * scrollStep;
+            gallery.scrollTo({
+                left: newScrollPosition,
+                behavior: 'smooth',
+            });
+
+            updateDesktopFigureSizes(); 
+        }
+
+        function scrollGalleryMobile() {
+        }
+
+        function initializeGallery() {
+            updateFigureSizes(); 
+
+            if (isMobileView()) {
+                document.querySelector('.arrow.left').style.display = 'none';
+                document.querySelector('.arrow.right').style.display = 'none';
+            } else {
+                document.querySelector('.arrow.left').style.display = '';
+                document.querySelector('.arrow.right').style.display = '';
+            }
+        }
+
+        document.querySelector('.arrow.left').addEventListener('click', () => {
+            if (!isMobileView()) scrollGalleryDesktop('left');
+        });
+        document.querySelector('.arrow.right').addEventListener('click', () => {
+            if (!isMobileView()) scrollGalleryDesktop('right');
+        });
+
+        window.addEventListener('load', initializeGallery);
+        window.addEventListener('resize', initializeGallery);
+
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const blueBar = document.querySelector(".blue-bar");
+            const toggleButton = document.createElement("button");
+
+            toggleButton.textContent = "☰";
+            toggleButton.style.position = "fixed";
+            toggleButton.style.top = "1.9rem";
+            toggleButton.style.left = "1rem";
+            toggleButton.style.background = "rgba(24, 4, 86)";
+            toggleButton.style.borderRadius = "5%";
+            toggleButton.style.border = "none";
+            toggleButton.style.color = "white";
+            toggleButton.style.fontSize = "1.5rem";
+            toggleButton.style.zIndex = "1100";
+            toggleButton.style.cursor = "pointer";
+
+            document.body.appendChild(toggleButton);
+
+            toggleButton.style.display = "none";
+
+            toggleButton.addEventListener("click", function () {
+                blueBar.classList.toggle("open");
+            });
+
+            function handleResize() {
+                const screenWidth = window.innerWidth;
+                if (screenWidth <= 850) { 
+                    toggleButton.style.display = "block"; 
+                } else { 
+                    toggleButton.style.display = "none"; 
+                }
+            }
+
+            handleResize();
+
+            window.addEventListener("resize", handleResize);
+        });
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function adjustNavButtons() {
+                const navButtons = document.querySelector(".nav-buttons");
+                const links = navButtons ? navButtons.querySelectorAll("a") : null;
+                const screenWidth = window.innerWidth;
+
+                if (navButtons && links) {
+                    if (screenWidth <= 800) { 
+                        navButtons.style.display = "grid";
+                        navButtons.style.gridTemplateColumns = "repeat(3, auto)"; 
+                        navButtons.style.gap = "0.5rem"; 
+                        navButtons.style.justifyContent = "center";
+                        navButtons.style.justifyItems = "center"; 
+
+                        links[3].style.gridColumn = "1 / -1"; 
+                    } else { 
+                        navButtons.style.display = "flex"; 
+                        navButtons.style.flexDirection = "row"; 
+                        navButtons.style.gap = "1.25rem"; 
+                        navButtons.style.justifyContent = "initial"; 
+
+                        links[3].style.gridColumn = "auto";
+                    }
+                }
+            }
+
+            adjustNavButtons();
+
+            window.addEventListener("resize", adjustNavButtons);
+        });
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function adjustFooterCells() {
+                const footerCells = document.querySelectorAll(".footer td");
+                const screenWidth = window.innerWidth;
+
+                if (screenWidth <= 850) { 
+                    footerCells.forEach(cell => cell.classList.add("stack"));
+                } else { 
+                    footerCells.forEach(cell => cell.classList.remove("stack"));
+                }
+            }
+
+            adjustFooterCells();
+
+            window.addEventListener("resize", adjustFooterCells);
+        });
+    </script>
+</body>
+
+</html>

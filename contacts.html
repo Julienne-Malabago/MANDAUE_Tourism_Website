@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mandaue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="contacts.css">
+</head>
+
+<body>
+    <div class="blue-bar" id="blueBar">
+        <table>
+            <tr>
+                <td class="logo" width="20%">
+                    <img class="img-logo" src="Welcome to Mandaue (5).png">
+                    <span>
+                        <div style="letter-spacing: normal;">Mandaue City</div>
+                        <div style="letter-spacing: 12px;">Tourism</div>
+                    </span>
+                </td>
+                <td class="nav-links" width="60%">
+                    <a href="index.htm">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="attractions.html">Attractions</a>
+                    <a href="events&festivals.html">Events & Festivals</a>
+                    <a href="food_culture.html">Food & Culture</a>
+                    <a href="contacts.html">Contact</a>
+                </td>
+                <td class="right-icons" width="20%">
+                    <img class="img-side-icons" src="Move Mandaue.png" alt="Move Mandaue">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="header-container">
+        <div class="header">
+            <h1>Contact Us</h1>
+            <p>Office & Socials</p>
+        </div>
+    </div>
+
+    <div class="content1-attractions-container">
+        <div class="attractions-design">
+            <table>
+                <tr>
+                    <td width="30%">
+                        <div class="event-card">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15701.05876194279!2d123.92433214838131!3d10.320689386825737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999b240edc6ff%3A0xe1c1fd04dd5b1cbf!2sMandaue%20City%20Tourism%20Office!5e0!3m2!1sen!2sph!4v1735559432746!5m2!1sen!2sph"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </td>
+                    <td width="60%">
+                        <h2>Mandaue Tourism Office</h2>
+                        <p>
+                            <b><i>(Mandaue City Garden) Zamora St, Barangay Centro, Mandaue City, 6014,
+                                    Philippines.</i></b>
+                        </p>
+                        <p><br>📞 (032) 343 9092<br>
+                            ✉️ <a href="mailto:cmo@mandauecity.gov.ph">cmo@mandauecity.gov.ph</a><br>
+                            🕒 Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        <br> <br> <br>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="socials">
+        <h2>Stay Connected</h2>
+        <h3><b>Follow us on:<br></b></h3>
+        <table>
+            <tr>
+                <td width="50%">
+                    <div class="social-links">
+                        <img src="fb.png">
+                        <h4>Facebook:</h4>
+                        <br>
+                        <a href="https://www.facebook.com/@MandaueCityPublicInformationOffice/">Mandaue
+                            City Public Information Office</a> <br>
+
+                        <a href="https://www.facebook.com/mandaueflashreport//">Mandaue New
+                            Update</a> <br>
+
+                        <a href="https://www.facebook.com/ChooseMandaue/">Mandaue Investment
+                            Promotions Tourism Action Center</a> <br>
+
+                </td>
+                <td width="50%">
+                    <img src="insta.png">
+                    <h4>Instagram</h4>
+                    <br>
+                    <a href="https://www.instagram.com/explore/locations/53060580/mandaue-city-tourism-office/">Mandaue
+                        Tourism</a>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <img class="footer-bottom-img-left" src="Move Mandaue.png" alt="Footer Image">
+        <p class="mandaue-quote">© 2024 Mandaue City Tourism. All Rights Reserved.</p>
+    </div>
+
+
+    <script>
+        let lastScrollY = window.scrollY;
+        const blueBar = document.getElementById('blueBar');
+
+
+        function handleScroll() {
+            const screenWidth = window.innerWidth;
+
+
+            if (screenWidth > 800) {
+                if (window.scrollY > lastScrollY) {
+
+                    blueBar.style.transform = 'translateY(-100%)';
+                } else {
+
+                    blueBar.style.transform = 'translateY(0)';
+                }
+                lastScrollY = window.scrollY;
+            } else {
+                blueBar.style.transform = 'translateY(0)';
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        window.addEventListener('resize', handleScroll);
+    </script>
+   
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const blueBar = document.querySelector(".blue-bar");
+            const toggleButton = document.createElement("button");
+
+            toggleButton.textContent = "☰";
+            toggleButton.style.position = "fixed";
+            toggleButton.style.top = "1.9rem";
+            toggleButton.style.left = "1rem";
+            toggleButton.style.background = "rgba(24, 4, 86)";
+            toggleButton.style.borderRadius = "5%";
+            toggleButton.style.border = "none";
+            toggleButton.style.color = "white";
+            toggleButton.style.fontSize = "1.5rem";
+            toggleButton.style.zIndex = "1100";
+            toggleButton.style.cursor = "pointer";
+
+            document.body.appendChild(toggleButton);
+
+            toggleButton.style.display = "none";
+
+            toggleButton.addEventListener("click", function () {
+                blueBar.classList.toggle("open");
+            });
+
+            function handleResize() {
+                const screenWidth = window.innerWidth;
+                if (screenWidth <= 850) {
+                    toggleButton.style.display = "block"; 
+                } else { 
+                    toggleButton.style.display = "none";
+                }
+            }
+
+            handleResize();
+
+            window.addEventListener("resize", handleResize);
+        });
+
+    </script>
+</body>
+
+</html>
