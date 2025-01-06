@@ -224,6 +224,7 @@ p {
 .nav-buttons a:hover {
   background-color: #23cdfe;
   color: white;
+  text-shadow: none;
 }
 
 .overview-container {
