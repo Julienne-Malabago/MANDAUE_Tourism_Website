@@ -10,7 +10,6 @@ html {
   font-family: 'Poppins', serif;
   margin: 0;
   padding: 0;
-  text-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.7);
   overflow: auto;
   scroll-behavior: smooth;
 }
